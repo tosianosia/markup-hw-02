@@ -13,20 +13,28 @@
       <!-- Основная навигация -->
       <nav>
         <!-- Логотип компании -->
-        <a href="./index.html" lang="en">WebStudio</a>
+        <a href="./index.html" class="logo" lang="en">
+          Web<span class="logo-black">Studio</span>
+        </a>
 
         <!-- Ссылки на другие страницы -->
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="site-nav list">
+          <li><a href="./index.html" class="link">Студия</a></li>
+          <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
 
       <!-- Почта и телефон -->
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="contacts list">
+        <li>
+          <a href="mailto:info@devstudio.com" class="link">
+            info@devstudio.com
+          </a>
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
 
@@ -36,22 +44,22 @@
       <section>
         <h1>Примеры работ</h1>
 
-        <ul>
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+        <ul class="filter list">
+          <li><button class="button" type="button">Все</button></li>
+          <li><button class="button" type="button">Веб-сайты</button></li>
+          <li><button class="button" type="button">Приложения</button></li>
+          <li><button class="button" type="button">Дизайн</button></li>
+          <li><button class="button" type="button">Маркетинг</button></li>
         </ul>
 
-        <ul>
+        <ul class="works list">
           <li>
             <img
               src="./images/picture-1.jpg"
               alt="Сайт на экране ноутбука"
               width="370"
             />
-            <h2>Технокряк</h2>
+            <h2 class="title">Технокряк</h2>
             <p>Веб-сайт</p>
           </li>
           <li>
@@ -60,7 +68,9 @@
               alt="Два баскетболиста с мячом"
               width="370"
             />
-            <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+            <h2 class="title">
+              Постер <span lang="en">New Orlean vs Golden Star</span>
+            </h2>
             <p>Дизайн</p>
           </li>
           <li>
@@ -69,7 +79,7 @@
               alt="Логотип ресторана"
               width="370"
             />
-            <h2>Ресторан <span lang="en">Seafood</span></h2>
+            <h2 class="title">Ресторан <span lang="en">Seafood</span></h2>
             <p>Приложение</p>
           </li>
           <li>
@@ -78,7 +88,7 @@
               alt="Беспроводные наушники"
               width="370"
             />
-            <h2>Проект <span lang="en">Prime</span></h2>
+            <h2 class="title">Проект <span lang="en">Prime</span></h2>
             <p>Маркетинг</p>
           </li>
           <li>
@@ -87,7 +97,7 @@
               alt="Две коробки на белом фоне"
               width="370"
             />
-            <h2>Проект <span lang="en">Boxes</span></h2>
+            <h2 class="title">Проект <span lang="en">Boxes</span></h2>
             <p>Приложение</p>
           </li>
           <li>
@@ -96,7 +106,7 @@
               alt="Сайт на экране монитора"
               width="370"
             />
-            <h2 lang="en">Inspiration has no Borders</h2>
+            <h2 class="title" lang="en">Inspiration has no Borders</h2>
             <p>Веб-сайт</p>
           </li>
           <li>
@@ -105,7 +115,9 @@
               alt="Открытый глянцевый журнал"
               width="370"
             />
-            <h2>Издание <span lang="en">Limited Edition</span></h2>
+            <h2 class="title">
+              Издание <span lang="en">Limited Edition</span>
+            </h2>
             <p>Дизайн</p>
           </li>
           <li>
@@ -114,7 +126,7 @@
               alt="Бирка с названием компании"
               width="370"
             />
-            <h2>Проект <span lang="en">LAB</span></h2>
+            <h2 class="title">Проект <span lang="en">LAB</span></h2>
             <p>Маркетинг</p>
           </li>
           <li>
@@ -123,7 +135,7 @@
               alt="Человек работает на ноутбуке"
               width="370"
             />
-            <h2 lang="en">Growing Business</h2>
+            <h2 class="title" lang="en">Growing Business</h2>
             <p>Приложение</p>
           </li>
         </ul>
@@ -131,19 +143,25 @@
     </main>
 
     <!-- Подвал страницы -->
-    <footer>
+    <footer class="footer">
       <!-- Логотип компании -->
-      <a href="./index.html" lang="en">WebStudio</a>
+      <a href="./index.html" class="logo" lang="en">
+        Web<span class="logo-white">Studio</span>
+      </a>
 
       <!-- Контактные данные -->
-      <address>
+      <address class="address">
         <!-- Адрес -->
         г. Киев, пр-т Леси Украинки, 26
 
         <!-- Почта и телефон -->
-        <ul>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+        <ul class="list">
+          <li>
+            <a href="mailto:info@example.com" class="link">info@example.com</a>
+          </li>
+          <li>
+            <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>

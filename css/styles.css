@@ -1,12 +1,131 @@
-/* основной цвет текста #757575 */
-/* вторичный цвет текста #212121 */
-/* цвет акцента #2196F3 */
-/* основной белый цвет #FFFFFF */
-/* чёрный цвет логотипа #000000 */
-/* цвет фона подвала #2F303A */
-/* цвет ссылки подвала rgba(255, 255, 255, 0.6) */
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --logo-black-color: #000000;
+  --footer-bg-color: #2f303a;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+}
 
 body {
-  color: #757575;
-  background-color: #ffffff;
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Logo */
+
+.logo {
+  color: var(--accent-color);
+}
+
+.logo-black {
+  color: var(--logo-black-color);
+}
+
+.logo-white {
+  color: var(--primary-white-color);
+}
+
+/* Site nav & Contacts */
+
+.site-nav .link {
+  color: var(--secondary-text-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.contacts .link {
+  color: inherit;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero {
+  background-color: var(--footer-bg-color);
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+}
+
+/* Button */
+
+.button {
+  color: var(--primary-white-color);
+
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--accent-color);
+  background-color: var(--primary-white-color);
+}
+
+/* Section */
+
+.section-title {
+  color: var(--secondary-text-color);
+}
+
+/* Features */
+
+.features .title {
+  color: var(--secondary-text-color);
+}
+
+/* Team */
+
+.team .name {
+  color: var(--secondary-text-color);
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--footer-bg-color);
+}
+
+.address {
+  color: var(--primary-white-color);
+}
+
+.address .link {
+  color: var(--footer-link-color);
+}
+
+/* Стили для portfolio.html */
+/* Filter */
+
+.filter .button {
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-bg-color);
+}
+
+.filter .button:hover,
+.filter .button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* Works */
+
+.works .title {
+  color: var(--secondary-text-color);
 }
