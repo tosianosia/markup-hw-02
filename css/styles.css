@@ -10,7 +10,12 @@
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
+
   background-color: var(--primary-white-color);
 }
 
@@ -21,7 +26,12 @@ body {
 /* Logo */
 
 .logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
   color: var(--accent-color);
+  text-decoration: none;
 }
 
 .logo-black {
@@ -46,6 +56,14 @@ body {
   color: inherit;
 }
 
+.site-nav .link,
+.contacts .link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus,
 .contacts .link:hover,
@@ -60,12 +78,23 @@ body {
 }
 
 .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--primary-white-color);
 }
 
 /* Button */
 
 .button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
   color: var(--primary-white-color);
 
   background-color: var(--accent-color);
@@ -81,19 +110,34 @@ body {
 /* Section */
 
 .section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
   color: var(--secondary-text-color);
 }
 
 /* Features */
 
 .features .title {
+  line-height: 1.14;
+  text-transform: uppercase;
   color: var(--secondary-text-color);
 }
 
 /* Team */
 
 .team .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
   color: var(--secondary-text-color);
+}
+
+.team .profession {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 
 /* Footer */
@@ -103,18 +147,24 @@ body {
 }
 
 .address {
+  font-style: normal;
   color: var(--primary-white-color);
 }
 
 .address .link {
   color: var(--footer-link-color);
+  text-decoration: none;
 }
 
 /* Стили для portfolio.html */
 /* Filter */
 
 .filter .button {
+  font-weight: 500;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+
   background-color: var(--secondary-bg-color);
 }
 
@@ -127,5 +177,13 @@ body {
 /* Works */
 
 .works .title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
   color: var(--secondary-text-color);
+}
+
+.works .type {
+  font-size: 16px;
+  line-height: 1.88;
 }
